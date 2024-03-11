@@ -35,4 +35,4 @@ if (isProduction) {
 }
 
 const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => console.log(`Server last launched at ${new Date().toLocaleString()} (running on port ${PORT})`));
+app.listen(PORT, () => console.log(`Server last launched at ${new Date().toLocaleString()} (running on port ${PORT})`));
